@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Fitness Center Management System" company="Bubble Bee" webLink="http://" view-date="2015-09-06" view-index="0" gantt-divider-location="405" resource-divider-location="387" version="2.7.1" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Fitness Center Management System" company="Bubble Bee" webLink="http://" view-date="2015-09-27" view-index="0" gantt-divider-location="405" resource-divider-location="387" version="2.7.1" locale="en_US">
     <description><![CDATA[This grantt chart represents the time scale of Fitness Center Management System.]]></description>
     <view zooming-state="default:7" id="gantt-chart">
         <field id="tpd3" name="Name" width="64" order="0"/>
@@ -8,8 +8,8 @@
         <option id="color.recent"><![CDATA[#000000 #ffcc66 #ff3366 #009999]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="51" order="0"/>
-        <field id="1" name="Default role" width="48" order="1"/>
+        <field id="0" name="Name" width="50" order="0"/>
+        <field id="1" name="Default role" width="49" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -35,7 +35,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Fitness Center Management System" color="#8cb6ce" meeting="false" start="2015-08-30" duration="72" complete="0" expand="true">
+        <task id="0" name="Fitness Center Management System" color="#8cb6ce" meeting="false" start="2015-08-30" duration="110" complete="0" expand="true">
             <task id="4" name="Software Initiation" color="#8cb6ce" meeting="false" start="2015-08-30" duration="25" complete="0" expand="true">
                 <task id="7" name="Requirement Elicitation" color="#8cb6ce" meeting="false" start="2015-08-30" duration="5" complete="0" expand="true"/>
                 <task id="9" name="Software Analysis" color="#8cb6ce" meeting="false" start="2015-08-30" duration="25" complete="0" expand="true">
@@ -46,34 +46,37 @@
                     <task id="21" name="Project Proposal submit" color="#8cb6ce" meeting="true" start="2015-09-24" duration="0" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="26" name="Developmet Phase" meeting="false" start="2015-09-20" duration="51" complete="0" expand="true">
-                <task id="28" name="Phase I" color="#000000" meeting="false" start="2015-09-20" duration="19" complete="0" expand="true">
+            <task id="26" name="Developmet Phase" meeting="false" start="2015-09-20" duration="89" complete="0" expand="true">
+                <task id="28" name="Phase I" color="#000000" meeting="false" start="2015-09-20" duration="29" complete="0" expand="true">
                     <task id="47" name="S/W Design Phase I" color="#009999" meeting="false" start="2015-09-20" duration="10" complete="0" expand="true"/>
-                    <task id="48" name="Develop Phase I" color="#ff3366" meeting="false" start="2015-09-26" duration="10" complete="0" expand="true">
+                    <task id="48" name="Develop Phase I" color="#ff3366" meeting="false" start="2015-09-26" duration="20" complete="0" expand="true">
                         <depend id="49" type="2" difference="0" hardness="Strong"/>
+                        <depend id="51" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="49" name="Testing Phase I" color="#ffcc66" meeting="false" start="2015-10-06" duration="3" complete="0" expand="true"/>
+                    <task id="49" name="Testing Phase I" color="#ffcc66" meeting="false" start="2015-10-16" duration="3" complete="0" expand="true"/>
                 </task>
-                <task id="29" name="Phase II" color="#000000" meeting="false" start="2015-09-30" duration="20" complete="0" expand="true">
+                <task id="29" name="Phase II" color="#000000" meeting="false" start="2015-09-30" duration="38" complete="0" expand="true">
                     <task id="50" name="S/W Design Phase II" color="#009999" meeting="false" start="2015-09-30" duration="8" complete="0" expand="true"/>
-                    <task id="51" name="Develop Phase II" color="#ff3366" meeting="false" start="2015-10-07" duration="10" complete="0" expand="true">
+                    <task id="51" name="Develop Phase II" color="#ff3366" meeting="false" start="2015-10-16" duration="20" complete="0" expand="true">
                         <depend id="52" type="2" difference="0" hardness="Strong"/>
+                        <depend id="57" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="52" name="Testing Phase II" color="#ffcc66" meeting="false" start="2015-10-17" duration="3" complete="0" expand="true"/>
+                    <task id="52" name="Testing Phase II" color="#ffcc66" meeting="false" start="2015-11-05" duration="2" complete="0" expand="true"/>
                 </task>
-                <task id="27" name="Phase III" color="#000000" meeting="false" start="2015-10-08" duration="25" complete="0" expand="true">
+                <task id="27" name="Phase III" color="#000000" meeting="false" start="2015-10-08" duration="51" complete="0" expand="true">
                     <task id="56" name="S/W Design Phase III" color="#009999" meeting="false" start="2015-10-08" duration="8" complete="0" expand="true"/>
-                    <task id="57" name="Develop Phase III" color="#ff3366" meeting="false" start="2015-10-18" duration="10" complete="0" expand="true">
+                    <task id="57" name="Develop Phase III" color="#ff3366" meeting="false" start="2015-11-05" duration="20" complete="0" expand="true">
                         <depend id="58" type="2" difference="0" hardness="Strong"/>
+                        <depend id="65" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="58" name="Testing Phase III" color="#ffcc66" meeting="false" start="2015-10-28" duration="5" complete="0" expand="true"/>
+                    <task id="58" name="Testing Phase III" color="#ffcc66" meeting="false" start="2015-11-25" duration="3" complete="0" expand="true"/>
                 </task>
-                <task id="30" name="Phase IV" color="#000000" meeting="false" start="2015-10-16" duration="25" complete="0" expand="true">
+                <task id="30" name="Phase IV" color="#000000" meeting="false" start="2015-10-16" duration="63" complete="0" expand="true">
                     <task id="64" name="S/W Design Phase IV" color="#009999" meeting="false" start="2015-10-16" duration="8" complete="0" expand="true"/>
-                    <task id="65" name="Develop Phase IV" color="#ff3366" meeting="false" start="2015-10-28" duration="10" complete="0" expand="true">
+                    <task id="65" name="Develop Phase IV" color="#ff3366" meeting="false" start="2015-11-25" duration="20" complete="0" expand="true">
                         <depend id="66" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="66" name="Testing Phase IV" color="#ffcc66" meeting="false" start="2015-11-07" duration="3" complete="0" expand="true"/>
+                    <task id="66" name="Testing Phase IV" color="#ffcc66" meeting="false" start="2015-12-15" duration="3" complete="0" expand="true"/>
                 </task>
             </task>
         </task>
